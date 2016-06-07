@@ -1,7 +1,10 @@
-body{
-	background-color: black;
+body {
+	background-color: #f3f3f3;
+	padding-top: 10em;
+	font-family: Georgia, serif;
 }
 
 h1, p {
-	color: gold;
+	color: black;
 }
+
