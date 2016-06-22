@@ -1,0 +1,81 @@
+body {
+	background-color: #f3f3f3;
+	font-family: Tahoma, sans-serif;
+	background-size: cover;
+}
+
+h1, p {
+	color: black;
+}
+
+
+/* NAVIGATION */
+
+#nav {
+	font-family: Tahoma;
+	font-size: 14px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	float: left;
+	background-color: white;
+	box-shadow: 1px 1px 20px #d8d8d8;
+}
+
+#branding {
+	margin: 0;
+	display: inline-block;
+}
+
+#branding img {
+	width: 100px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 1% 1%;
+}
+
+#nav li {
+	float: right;
+}
+
+#nav li a {
+	display: inline-block;
+	color: #bfbfbf;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+#nav li a:hover {
+	color: black;
+}
+
+/* HEADER */
+
+.header h1 {
+vertical-align: middle;
+}
+
+.header div{
+}
+
+.header {
+	background: url(http://svite-league-apps-content.s3.amazonaws.com/5617/6731/a5a3d043-df50-4273-8807-e5af3440512f.jpeg);
+	background-size: cover;
+	height: 900px;
+}
+
+.info {
+	width: 250px;
+	height: 250px;
+	background-color: rgba(0, 0, 0, .8);
+	display: inline-block;
+	color: white;
+}
