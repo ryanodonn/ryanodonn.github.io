@@ -1,0 +1,299 @@
+@import url(https://fonts.googleapis.com/css?family=Comfortaa:400,700,300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300,700);
+
+body {
+	background-color: #f3f3f3;
+	font-family: 'Comfortaa', cursive;
+	background-size: cover;
+}
+
+h1, p {
+	color: black;
+}
+
+
+/* NAVIGATION */
+
+
+#nav {
+	font-family: Tahoma;
+	font-size: 14px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	float: left;
+	background-color: white;
+	box-shadow: 1px 1px 20px #d8d8d8;
+}
+
+#branding {
+	margin: 0;
+	display: inline-block;
+}
+
+#branding img {
+	width: 100px;
+	height: 40px;
+	margin: 0;
+	padding: 0;
+}
+
+#nav ul{
+	list-style: none;
+	margin: 0;
+	padding: 1% 1%;
+}
+
+#nav li {
+	float: right;
+}
+
+#nav li a {
+	display: inline-block;
+	color: #bfbfbf;
+	text-align: center;
+	text-decoration: none;
+	padding: 10px 20px;
+}
+
+#nav li a:hover {
+	color: black;
+}
+
+
+/* HEADER */
+
+
+.header {
+	background: url(http://svite-league-apps-content.s3.amazonaws.com/5617/6731/a5a3d043-df50-4273-8807-e5af3440512f.jpeg);
+	background-size: cover;
+	width: 100%;
+	text-align: center;
+}	
+
+.header h1 {
+	color: #FF314D;
+	padding-top: 12%;
+	font-size: 7em;
+	text-shadow: 4px 4px 10px rgba(150, 150, 150, .7);
+}
+
+#slogan {
+	font-family: 'Lato', sans-serif;
+	font-size: 1.5em;
+	padding-bottom: 5%;
+	margin-top: -3.5%;
+}
+
+
+/* INFO */
+
+
+#info_container {
+	padding-bottom: 3%;
+}
+
+.info {
+	width: 300px;
+	height: 300px;
+	background-color: rgba(0, 0, 0, .8);
+	display: inline-block;
+	padding: 1% 2%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+.info h3 {
+	font-size: 1.5em;
+	color: white;
+	text-align: left;
+}
+
+.info p {
+	font-family: 'Lato', sans-serif;
+	color: white;
+	font-size: 1em;
+	text-align: left;
+	line-height: 1.5em;
+}
+
+
+/* FOLD */
+
+
+.fold {
+	background-color: #f34949;
+	width: 100%;
+	height: 300px;
+	margin-top: -2.5%;
+}
+
+.fold p {
+	font-size: 2.5em;
+	text-align: center;
+	padding-top: 5.5%;
+	color: white;
+}
+
+
+/* EVENTS */
+
+
+#upcoming {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	text-align: center;
+}
+
+#upcoming h2 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#upcoming hr {
+	width: 25%;
+	margin-bottom: 4%;
+}
+
+.events {
+ 	display: inline-block;
+ 	width: 500px;
+ 	margin-left: 2.5%;
+ 	margin-right: 2.5%;
+ }
+
+.events img {
+	width: 500px;
+}
+
+.events h3 {
+	font-size: 1.5em;
+}
+
+.events p {
+	text-align: left;
+	line-height: 1.5em;
+	width: 480px;
+	margin-left: 1%;
+}
+
+
+/* SOCIAL */
+
+
+.social {
+	width: 100%;
+	height: 400px;
+	background: url("http://previews.123rf.com/images/toddkuhns/toddkuhns1004/toddkuhns100400066/6776747-Home-Plate-on-a-Baseball-Field-Stock-Photo.jpg");
+	background-size: cover;
+}
+
+#news {
+	width: 50%;
+	height: 100px;
+}
+
+#facebook {
+	width: 50%;
+	height: 100px;
+	position: relative;
+}
+
+#facebook img {
+	width: 500px;
+	height: 200px;
+}
+
+#facebook h3 {
+	position: absolute;
+}
+
+
+/* SPONSORS */
+
+#white {
+	background-color: white;
+}
+
+#sponsors {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	text-align: center;
+	display: inline-block;
+}
+
+#sponsors hr{
+	width: 25%;
+	margin-bottom: 4%;
+}
+
+#sponsors h2{
+	font-weight: bold;
+	font-size: 2em;
+}
+
+#sponsors img{
+	width: 10%;
+	margin-left: 2%;
+	margin-right: 2%;
+}
+
+
+/*COMMISH*/
+
+
+#meet {
+	margin-top: 5%;
+	margin-bottom: 10%;
+	text-align: center;
+}
+
+#meet hr{
+	width: 25%;
+	margin-bottom: 4%;
+}
+
+#meet h2{
+	font-weight: bold;
+	font-size: 2em;
+}
+
+.commissioners {
+	width: 18%;
+	margin-right: 2%;
+	margin-left: 2%;
+	display: inline-block;
+}
+
+.commissioners h3 {
+	font-size: 1.4em;
+}
+
+.commissioners p {
+	font-size: 1em;
+	line-height: 1.5em;
+	margin-left: 7%;
+	margin-right: 7%;
+	text-align: justify;
+}
+
+.commissioners img {
+	width: 100%;
+}
+
+
+/*COMMISH*/
+
+
+.footer {
+	background: #555555;
+	width: 100%;
+	height: 125px;
+	display: inline-block;
+}
+
+.footer img{
+	width: 11%;
+}
