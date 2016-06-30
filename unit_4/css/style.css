@@ -66,7 +66,7 @@ h1, p {
 
 
 .header {
-	background: url('/images/header.jpg');
+	background: url("http://svite-league-apps-content.s3.amazonaws.com/5617/6731/a5a3d043-df50-4273-8807-e5af3440512f.jpeg");
 	background-size: cover;
 	width: 100%;
 	text-align: center;
@@ -194,14 +194,21 @@ h1, p {
 }
 
 #news {
+
+	margin-top: 12%;
+	margin-left: 10%;
+	padding-top: 2%;
+	padding-left: 1%;
 	width: 50%;
-	height: 100px;
+	background-color:  #f34949;
+	height: 200px;
 }
 
 #facebook {
 	width: 50%;
 	height: 100px;
 	position: relative;
+	background-color:  #f34949;
 
 }
 
